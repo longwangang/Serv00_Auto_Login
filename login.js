@@ -79,6 +79,7 @@ async function delayTime(ms) {
 })();
 
 // 自定义延时函数
+//test
 function delayTime(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
